@@ -2,10 +2,12 @@ CC = gcc
 CFLAGS = -Wall -Werror -g
 
 SRCDIR = ./
+INCLUDEDIR = ./
 BUILDDIR = ./build
 
-SRC = $(wildcard $(SRCDIR)/*.c)
-OBJECTS = $(addprefix build/, $(notdir $(SRC:.c=.o)))
+SRCS = $(wildcard $(SRCDIR)/*.c)
+HEADERS = $(wildcard $(INCLUDEDIR)/*.h)
+OBJECTS = $(addprefix build/, $(notdir $(SRCS:.c=.o)))
 TARGET = $(BUILDDIR)/clox
 
 all: build $(TARGET)
@@ -16,7 +18,7 @@ build:
 $(TARGET): $(OBJECTS)
 	$(CC) -o $@ $^
 
-build/%.o: $(SRCDIR)/%.c
+build/%.o: $(SRCDIR)/%.c $(HEADERS)
 	$(CC) $(CFLAGS) -c -o $@ $<
 
 .phony: run clean build
