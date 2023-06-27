@@ -1,0 +1,122 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/chunk.o",
+      "chunk.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/chunk.c",
+    "output": "/home/chao/clox/build/chunk.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/compiler.o",
+      "compiler.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/compiler.c",
+    "output": "/home/chao/clox/build/compiler.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/debug.o",
+      "debug.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/debug.c",
+    "output": "/home/chao/clox/build/debug.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/main.o",
+      "main.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/main.c",
+    "output": "/home/chao/clox/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/memory.o",
+      "memory.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/memory.c",
+    "output": "/home/chao/clox/build/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/scanner.o",
+      "scanner.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/scanner.c",
+    "output": "/home/chao/clox/build/scanner.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/value.o",
+      "value.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/value.c",
+    "output": "/home/chao/clox/build/value.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/vm.o",
+      "vm.c"
+    ],
+    "directory": "/home/chao/clox",
+    "file": "/home/chao/clox/vm.c",
+    "output": "/home/chao/clox/build/vm.o"
+  }
+]
