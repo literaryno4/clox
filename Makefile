@@ -26,5 +26,8 @@ build/%.o: $(SRCDIR)/%.c $(HEADERS)
 run:
 	./$(TARGET)
 
+gdb: $(TARGET)
+	lldb $<
+
 clean:
 	rm -rf $(BUILDDIR)
