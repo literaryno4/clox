@@ -10,9 +10,9 @@
       "build/chunk.o",
       "chunk.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/chunk.c",
-    "output": "/home/chao/clox/build/chunk.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/chunk.c",
+    "output": "/Users/chao/workspace/clox/build/chunk.o"
   },
   {
     "arguments": [
@@ -25,9 +25,9 @@
       "build/compiler.o",
       "compiler.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/compiler.c",
-    "output": "/home/chao/clox/build/compiler.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/compiler.c",
+    "output": "/Users/chao/workspace/clox/build/compiler.o"
   },
   {
     "arguments": [
@@ -40,9 +40,9 @@
       "build/debug.o",
       "debug.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/debug.c",
-    "output": "/home/chao/clox/build/debug.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/debug.c",
+    "output": "/Users/chao/workspace/clox/build/debug.o"
   },
   {
     "arguments": [
@@ -55,9 +55,9 @@
       "build/main.o",
       "main.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/main.c",
-    "output": "/home/chao/clox/build/main.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/main.c",
+    "output": "/Users/chao/workspace/clox/build/main.o"
   },
   {
     "arguments": [
@@ -70,9 +70,24 @@
       "build/memory.o",
       "memory.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/memory.c",
-    "output": "/home/chao/clox/build/memory.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/memory.c",
+    "output": "/Users/chao/workspace/clox/build/memory.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
+      "build/object.o",
+      "object.c"
+    ],
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/object.c",
+    "output": "/Users/chao/workspace/clox/build/object.o"
   },
   {
     "arguments": [
@@ -85,9 +100,9 @@
       "build/scanner.o",
       "scanner.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/scanner.c",
-    "output": "/home/chao/clox/build/scanner.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/scanner.c",
+    "output": "/Users/chao/workspace/clox/build/scanner.o"
   },
   {
     "arguments": [
@@ -100,9 +115,9 @@
       "build/value.o",
       "value.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/value.c",
-    "output": "/home/chao/clox/build/value.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/value.c",
+    "output": "/Users/chao/workspace/clox/build/value.o"
   },
   {
     "arguments": [
@@ -115,8 +130,8 @@
       "build/vm.o",
       "vm.c"
     ],
-    "directory": "/home/chao/clox",
-    "file": "/home/chao/clox/vm.c",
-    "output": "/home/chao/clox/build/vm.o"
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/vm.c",
+    "output": "/Users/chao/workspace/clox/build/vm.o"
   }
 ]
