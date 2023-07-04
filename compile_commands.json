@@ -112,6 +112,21 @@
       "-g",
       "-c",
       "-o",
+      "build/table.o",
+      "table.c"
+    ],
+    "directory": "/Users/chao/workspace/clox",
+    "file": "/Users/chao/workspace/clox/table.c",
+    "output": "/Users/chao/workspace/clox/build/table.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Werror",
+      "-g",
+      "-c",
+      "-o",
       "build/value.o",
       "value.c"
     ],
