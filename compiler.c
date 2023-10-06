@@ -206,7 +206,7 @@ static void binary(bool canAssign) {
     emitByte(OP_ADD);
     break;
   case TOKEN_MINUS:
-    emitByte(OP_SUBTRCT);
+    emitByte(OP_SUBTRACT);
     break;
   case TOKEN_STAR:
     emitByte(OP_MULTIPLY);
